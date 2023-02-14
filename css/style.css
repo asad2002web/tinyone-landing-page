@@ -1,3 +1,13 @@
+/* 
+    Website Title: TanyOne 
+    Use technology: HTML5, CSS3
+    Use Farmwork: Bootstrap 5 
+    Author/Designer: Md. Asadullah
+    Author Github Profile Link: https://github.com/asad2002web
+    github Link: https://github.com/asad2002web/tinyone-landing-page 
+    Live site Link: https://asad2002web.github.io/tinyone-landing-page/
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
 @font-face {
     font-family: 'MyriadPro';
@@ -14,11 +24,11 @@
     font-weight: bold;
     font-style: normal;
   }
-
-  /* Font Added Close */
+ /* font added */
   a{
     text-decoration: none;
   }
+  /* common css end */
 body{
     font-family: 'PT Sans', sans-serif;
     font-family: 'MyriadPro', Arial, sans-serif;
@@ -32,6 +42,9 @@ header{
     background-color: #fcdb00;
 }
 /* bunner start  */
+.bunner-main-text{
+    font-family: 'PT Sans', sans-serif;
+}
 .bunner-semi-text{
     font-weight: 400;
     opacity: 0.8;
@@ -65,8 +78,12 @@ header{
         padding: 10px;
     }
     .bunner-img{
-        padding: 0;
+        padding-left: 0px !important;
         display: block;
+    }
+    .features-text{
+        width: 100% !important;
+        padding: 0 10px;
     }
     .footer-responsive{
         text-align: center;
