@@ -11,3 +11,29 @@ p{
 header{
     background-color: #fcdb00;
 }
+/* bunner start  */
+.bunner-semi-text{
+    font-weight: 400;
+    opacity: 0.8;
+}
+.bunner-text{
+    font-weight: 500;
+    opacity: 0.5;
+}
+.card-icon i{
+    font-size: 32px;
+}
+
+
+ /*  Mobile Responsive less than 576px */
+ @media only screen and (max-width: 576px) {
+    .bunner-main-text{
+        text-align: center;
+        padding: 10px;
+    }
+    .bunner-img{
+        padding: 0;
+        display: block;
+    }
+
+ }
