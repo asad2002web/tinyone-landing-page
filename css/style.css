@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('path/to/myriad-pro-regular.woff2') format('woff2'),
+         url('path/to/myriad-pro-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MyriadPro';
+    src: url('path/to/myriad-pro-bold.woff2') format('woff2'),
+         url('path/to/myriad-pro-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
 
+  /* Font Added Close */
+  a{
+    text-decoration: none;
+  }
 body{
     font-family: 'PT Sans', sans-serif;
+    font-family: 'MyriadPro', Arial, sans-serif;
 }
 p{
     font-weight: 400;
@@ -20,11 +40,24 @@ header{
     font-weight: 500;
     opacity: 0.5;
 }
-.card-icon i{
-    font-size: 32px;
+.features-heading{
+    font-family: 'PT Sans', sans-serif;
 }
+.card-icon i{
+    font-size: 24px;
+}
+.footer-heading{
+    font-family: 'PT Sans', sans-serif;
 
-
+}
+.footer-icon a{
+    font-size: 22px;
+    color:  #fcdb00;
+    padding: 0 15px;
+}
+.footer-link a{
+    color: #fff;
+}
  /*  Mobile Responsive less than 576px */
  @media only screen and (max-width: 576px) {
     .bunner-main-text{
@@ -34,6 +67,9 @@ header{
     .bunner-img{
         padding: 0;
         display: block;
+    }
+    .footer-responsive{
+        text-align: center;
     }
 
  }
